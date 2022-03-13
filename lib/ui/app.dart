@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ParcelAppTheme.lightTheme,
       home: const Scaffold(
-        body: SendParcelCheckoutScreen(),
+        body: ParcelCenterScreen(),
         bottomNavigationBar: MyBottomNavigationBar(),
       ),
     );
